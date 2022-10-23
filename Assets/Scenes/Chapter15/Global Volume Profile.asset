@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 7272547950099681804}
+--- !u!114 &7272547950099681804
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomVolumeComponent
+  m_EditorClassIdentifier: Assembly-CSharp::FogWithNoise/CustomVolumeComponent
+  active: 1
+  isRender:
+    m_OverrideState: 1
+    m_Value: 1
+  FogDensity:
+    m_OverrideState: 1
+    m_Value: 0.1
+  FogStart:
+    m_OverrideState: 1
+    m_Value: 0
+  FogEnd:
+    m_OverrideState: 1
+    m_Value: 25
+  FogXSpeed:
+    m_OverrideState: 1
+    m_Value: 0.1
+  FogYSpeed:
+    m_OverrideState: 1
+    m_Value: 0.2
+  NoiseAmount:
+    m_OverrideState: 1
+    m_Value: 1.3
+  FogColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.4392157, g: 0.56678265, b: 0.6784314, a: 1}

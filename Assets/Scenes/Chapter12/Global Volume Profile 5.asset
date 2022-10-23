@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9210927690443987544
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomVolumeComponent
+  m_EditorClassIdentifier: Assembly-CSharp::Bloom/CustomVolumeComponent
+  active: 1
+  <displayName>k__BackingField: 
+  isRender:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurSpread:
+    m_OverrideState: 1
+    m_Value: 0.5
+  Iterations:
+    m_OverrideState: 1
+    m_Value: 3
+  DownSample:
+    m_OverrideState: 1
+    m_Value: 2
+  LuminanceThreshold:
+    m_OverrideState: 1
+    m_Value: 0.5
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile 5
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 1762517250887206188}
+--- !u!114 &1762517250887206188
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomVolumeComponent
+  m_EditorClassIdentifier: Assembly-CSharp::BloomNew/CustomVolumeComponent
+  active: 1
+  isRender:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurSpread:
+    m_OverrideState: 1
+    m_Value: 1
+  Iterations:
+    m_OverrideState: 1
+    m_Value: 4
+  DownSample:
+    m_OverrideState: 1
+    m_Value: 2
+  LuminanceThreshold:
+    m_OverrideState: 1
+    m_Value: 0.2

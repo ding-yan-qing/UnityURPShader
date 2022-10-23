@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9216599848408289352
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomVolumeComponent
+  m_EditorClassIdentifier: Assembly-CSharp::CustomVolumeComponent
+  active: 1
+  <displayName>k__BackingField: 
+  isRender:
+    m_OverrideState: 1
+    m_Value: 1
+  Brightness:
+    m_OverrideState: 1
+    m_Value: 1
+  Saturation:
+    m_OverrideState: 1
+    m_Value: 1
+  Contrast:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile 1
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 1136447765254207090}
+--- !u!114 &1136447765254207090
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomVolumeComponent
+  m_EditorClassIdentifier: Assembly-CSharp::BrightnessSaturationAndContrast/CustomVolumeComponent
+  active: 1
+  isRender:
+    m_OverrideState: 1
+    m_Value: 1
+  Brightness:
+    m_OverrideState: 1
+    m_Value: 1
+  Saturation:
+    m_OverrideState: 1
+    m_Value: 1
+  Contrast:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &9208625039136697705
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomVolumeComponent
+  m_EditorClassIdentifier: Assembly-CSharp::BrightnessSaturationAndContrast/CustomVolumeComponent
+  active: 1
+  isRender:
+    m_OverrideState: 1
+    m_Value: 1
+  Brightness:
+    m_OverrideState: 1
+    m_Value: 1
+  Saturation:
+    m_OverrideState: 1
+    m_Value: 1
+  Contrast:
+    m_OverrideState: 1
+    m_Value: 1

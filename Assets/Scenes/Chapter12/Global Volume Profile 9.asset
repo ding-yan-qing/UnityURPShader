@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-327999376313380736
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomVolumeComponent
+  m_EditorClassIdentifier: Assembly-CSharp::NewMotionBlur/CustomVolumeComponent
+  active: 1
+  isRender:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurAmount:
+    m_OverrideState: 1
+    m_Value: 0.5
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile 9
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -327999376313380736}
+--- !u!114 &4657683820775474152
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomVolumeComponent
+  m_EditorClassIdentifier: Assembly-CSharp::MotionBlur/CustomVolumeComponent
+  active: 1
+  <displayName>k__BackingField: 
+  isRender:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurAmount:
+    m_OverrideState: 1
+    m_Value: 0.5
+--- !u!114 &8767227909603306780
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomVolumeComponent
+  m_EditorClassIdentifier: Assembly-CSharp::NewMotionBlur/CustomVolumeComponent
+  active: 1
+  isRender:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurAmount:
+    m_OverrideState: 1
+    m_Value: 0.7
